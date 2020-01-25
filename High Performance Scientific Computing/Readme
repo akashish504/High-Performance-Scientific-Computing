@@ -8,6 +8,9 @@ a) Explicit
 		Compilation - mpiCC  MPI_explicit_final.cpp
 		Execution - mpirun -np 4 a.out
 
+b) Implicit
+	Only serial and OpenMP codes.
+
 For OpenMP codes - 
 Compilation - g++ -fopenmp <filename>
 execution - ./a.out
