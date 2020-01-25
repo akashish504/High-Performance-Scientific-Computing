@@ -1,0 +1,17 @@
+The Code contains 2 folders for 2 different methodologies that were implemented
+
+a) Explicit
+	i) CUDA_exp.cu -- Cuda code 
+		Compilaiton - nvcc CUDA_exp.cu
+		Execution - ./a.out
+	ii)  MPI_explicit_final.cpp - MPI Code
+		Compilation - mpiCC  MPI_explicit_final.cpp
+		Execution - mpirun -np 4 a.out
+
+For OpenMP codes - 
+Compilation - g++ -fopenmp <filename>
+execution - ./a.out
+
+For Serial codes
+Compilaiton - g++ <filename>
+Execution - ./a.out
